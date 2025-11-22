@@ -77,7 +77,7 @@ Used `SHAP` method to visualize gain-based feature importance.
 
 ---
 
-## ✅ Next Steps (Optional Ideas)
+## ✅ Future Improvement
 
 - Deploy with **Streamlit or Flask**
 - Build a real-time prediction dashboard
