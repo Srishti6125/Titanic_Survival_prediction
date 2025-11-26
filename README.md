@@ -43,7 +43,7 @@ Predict whether a passenger survived the Titanic disaster using passenger detail
 | Random Forest | 83.2%  | 77.4%  | 79.7%  | 78.5%   | 88.3%|
 | **XGBoost**        | **84.3%** | **78.0%** | **82.6%** |**80.2%** | **86.9%** |
 
-🎯 **Final Model Chosen**: `XGBoost Regressor`  
+🎯 **Final Model Chosen**: `XGBoost Classifier`  
 Due to its high accuracy, ability to handle non-linear data, and better generalization.
 
 ---
