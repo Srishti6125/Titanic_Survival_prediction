@@ -39,9 +39,9 @@ Predict whether a passenger survived the Titanic disaster using passenger detail
 
 | Model              | Accuracy| Precision| Recall  | F1 score | Roc_auc|
 |-------------------|---------|---------|----------|---------|----------|
-| Logistic Regression  | 0.782  | 0.697  | 0.768   |0.731   | 0.849|
-| Random Forest | 0.826  | 0.771  | 0.782  |0.776   | 0.881|
-| **XGBoost**        | **0.837** | **0.794** | **0.782** |**0.788** | **0.865** |
+| Logistic Regression  | 77.6%  | 69.8%  | 73.9%   | 71.8%   | 8.48% |
+| Random Forest | 83.2%  | 77.4%  | 79.7%  | 78.5%   | 88.3%|
+| **XGBoost**        | **84.3%** | **78.0%** | **82.6%** |**80.2%** | **86.9%** |
 
 🎯 **Final Model Chosen**: `XGBoost Regressor`  
 Due to its high accuracy, ability to handle non-linear data, and better generalization.
@@ -52,9 +52,9 @@ Due to its high accuracy, ability to handle non-linear data, and better generali
 
 Top features impacting trip duration:
 - `Sex_female`
-- `Fare`
 - `Age`
 - `Pclass`
+- `Fare`
 
 Used `SHAP` method to visualize gain-based feature importance.
 
